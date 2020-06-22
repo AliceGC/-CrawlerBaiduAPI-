@@ -24,7 +24,6 @@ for indexes in city.index:
     city.loc[indexes,'lat'] = get_location[0]
     city.loc[indexes,'lng'] = get_location[1]
 
-city.to_csv(r'city_latlng.csv',index = False)
 
 WH_lat = 30.598466736400987
 WH_lng = 114.31158155473231
